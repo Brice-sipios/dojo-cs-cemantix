@@ -23,6 +23,8 @@ export class AppComponent {
   hasError = false;
   myResultDistance = 0
 
+  title = 'dojo-cs-cemantics';
+
   sendMyGuess() {
     this.myResultDistance = 45
     this.apiClient.getResponseWord({
